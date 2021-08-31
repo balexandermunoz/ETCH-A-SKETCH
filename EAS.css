@@ -1,0 +1,83 @@
+.Container {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+body {
+  background-color: #D3CACA;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  margin: auto;
+}
+
+
+
+#ColorBtn, #BgBtn{
+  border-radius: none;
+  width: 30px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+}
+
+.Buttons{
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  width: auto;
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.Btn {
+  padding: 5px;
+  margin: 15px;
+  border-radius: 100px;
+  align-content: center;
+  text-align: center;
+}
+
+.Btn:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 1px black;
+}
+
+.frame{
+    background-color: white;
+  }
+
+p,b {
+  display: inline;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+  /* Style all social media icons */
+  .fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
