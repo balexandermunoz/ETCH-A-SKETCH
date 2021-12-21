@@ -35,7 +35,7 @@ function changeBgColor(){
 
 //Function for setting and assembling the grid:
 function FixGrid(){
-    document.querySelectorAll('.frame').forEach(e => e.remove());   // Limpiar el grid anterionr:
+    document.querySelectorAll('.frame').forEach(e => e.remove());   // Limpiar el grid anterior:
 
     // Fix the grid size:
     if(SizeBtn.value > 100) SizeBtn.value = 100;          // Size upper limit
@@ -56,13 +56,13 @@ function FixGrid(){
 function ClickGrid(){
     if (BrushBool){     // If click inside container Brushbool = true and add a mouseover event to each div
         document.querySelectorAll('.frame').forEach(e => {
-            e.addEventListener('mouseover',Coloring);
+            e.addEventListener('mouseover',Coloring);  //Change for mousedown
         });
         BrushBool = false;
     }
     else{               // If click again, Brushbool = false and remove all mouseover events.
         document.querySelectorAll('.frame').forEach(e => {
-            e.removeEventListener('mouseover',Coloring);
+            e.removeEventListener('mouseover',Coloring);  //Change for mousedown
         });
         BrushBool = true; 
     }
